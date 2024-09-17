@@ -36,6 +36,7 @@ function validarContrasena(contrasenaGenerada){
     }
 
     if (validacion) {
+        messageElement.style =  
         messageElement.textContent = 'Contraseña Segura';
         messageElement.classList.remove('weak');
         messageElement.classList.add('strong');
